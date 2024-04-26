@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enva2024</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="main-container">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-wrap">
+
+                    <!-- logo-start -->
+                    <disv class="logo-container">
+                        <div class="image-container">
+                            <img src="images/logo.svg" alt="" class="d-block header-logo">
+                            <img src="images/footer.svg" alt="" class="d-block footer-logo">
+                        </div>
+                    </disv>
+                    <!-- logo-end -->
+
+                <!-- form-start -->
+                    <div class="form-start">
+                        <div class="form-wrap">
+                            <form id="survey-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label id="name-label" for="name">الاسم</label>
+                                            <label class="en-label">Name</label>
+                                            <input type="text" name="name" id="name" placeholder="Type Here"
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label id="age-label" for="age">العمر</label>
+                                            <label class="en-label">Age</label>
+                                            <input type="age" name="age" id="age" placeholder="Type Here"
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label id="mobile-label" for="name">رقم الجوال</label>
+                                            <label class="en-label">Mobile</label>
+                                            <input type="mobile" name="mobile" id="mobile" placeholder="Type Here"
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label id="email-label" for="email">الايميل</label>
+                                            <label class="en-label">Email</label>
+                                            <input type="email" name="email" id="email" placeholder="Type Here"
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>الجنس</label>
+                                            <label class="en-label">Gender</label>
+                                            <select id="dropdown" name="role" class="form-control" required>
+                                                <option disabled selected value>Select</option>
+                                                <option value="student">Male</option>
+                                                <option value="job">Female</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <button type="button" class="btn btn-primary btn-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Submit Form</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                <!-- form-close -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- popup -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="success-animation">
+                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" /><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /></svg>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita doloribus possimus facere sapiente aliquid optio, impedit excepturi
+                    </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Thank You</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- close -->
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
