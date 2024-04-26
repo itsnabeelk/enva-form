@@ -340,8 +340,8 @@ textarea.form-control{
     box-shadow: inset 0px 0px 0px #4bb71b;
     animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
     position:relative;
-    top: 5px;
-    right: 5px;
+    top: 0px;
+    right: 0;
    margin: 0 auto;
 }
 .checkmark__circle {
