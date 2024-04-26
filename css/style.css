@@ -276,6 +276,18 @@ textarea.form-control{
     width: 100%;
     max-width: 15rem;
 }
+.form-container {
+    width: 100%;
+}
+.form-container {
+    position: relative;
+    left: auto;
+    transform: none;
+    display: block;
+}
+.container {
+    padding: 0 !important; 
+}
 .image-container 
 .header-logo {
     width: 100%;
