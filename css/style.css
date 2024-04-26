@@ -1,9 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
 *{
     overflow-x: hidden;
 }
 body{
     margin: 0;
     padding: 0;
+    font-family: "Vazirmatn", sans-serif;
 }
 
 .main-container{
@@ -385,3 +388,9 @@ textarea.form-control{
 }
 
 /* close */
+
+
+.form-group input::placeholder {
+    font-size: 12px;
+    color: #ccc;
+  }
