@@ -10,7 +10,25 @@ gsap.from(".col-md-6 .form-group", {
   y: -300,
   stagger: 0.3,
 });
-gsap.from(".logo-container .image-container img", {
+gsap.from(".logo-sec img", {
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".logo-sec img",
+      toggleActions: "play play play play",
+    },
+    y: -300,
+    stagger: 0.3,
+  });
+  gsap.from(".register-area a", {
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".register-area a",
+      toggleActions: "play play play play",
+    },
+    y: -300,
+    stagger: 0.3,
+  });
+  gsap.from(".logo-container .image-container img", {
     duration: 1,
     scrollTrigger: {
       trigger: ".logo-container .image-container img",
